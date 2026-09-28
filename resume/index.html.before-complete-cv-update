@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume | Ivy</title>
+  <meta name="description" content="Professional profile for Ivy, product manager with civil engineering, construction management and construction technology experience.">
+  <meta name="theme-color" content="#f5f2ea">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Resume | Ivy">
+  <meta property="og:description" content="Professional profile for Ivy, product manager with civil engineering, construction management and construction technology experience.">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script src="/assets/js/site-config.js"></script>
+  <script src="/assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="Ivy portfolio home"><span class="brand-mark">I</span><span>Ivy</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation"><a href="/">Home</a><a href="/work/">Work</a><a href="/about/">About</a><a href="/resume/" aria-current="page">Resume</a><a href="/contact/">Contact</a></nav>
+    </div>
+  </header>
+  <main id="main">
+<section class="case-hero"><div class="container"><div class="eyebrow">Profile</div><h1>Product management grounded in technical and operational systems.</h1><p class="lede">A concise profile of my product, construction-technology and physical-systems background. My full CV is available through the button below.</p><div class="button-row"><a class="button primary js-resume-link" hidden target="_blank" rel="noreferrer">Download full CV</a><a class="button secondary" href="/contact/">Contact</a></div></div></section>
+<section class="section"><div class="container"><div class="resume-shell reveal"><div class="resume-row"><div class="resume-label">Profile</div><div><h2 style="font-size:2rem">Ivy · Product Manager</h2><p>Product manager with a civil-engineering and construction-management background, prior associate product-management experience on a construction-management application, and hands-on 0→1 product-building experience through Tapestry Crochet Studio.</p></div></div><div class="resume-row"><div class="resume-label">Focus</div><div><div class="tags"><span class="tag">Construction technology</span><span class="tag">Technical product management</span><span class="tag">AI product management</span><span class="tag">Workflow software</span><span class="tag">0→1 products</span><span class="tag">Physical-digital systems</span></div></div></div><div class="resume-row"><div class="resume-label">Experience</div><div><h3>Independent Product Manager / Builder · Tapestry Crochet Studio</h3><p>Product strategy, PRD, roadmap, domain modelling, release planning, acceptance criteria, QA strategy, business workflow, desktop direction and staged SaaS planning for a local-first crochet production application.</p><h3 style="margin-top:26px">Construction Technology Product Experience</h3><p>Associate product-management experience on a construction-management application, bringing domain knowledge from earlier construction work into software product delivery.</p><h3 style="margin-top:26px">Construction Management</h3><p>Professional construction-management experience before moving into product, shaping how I think about sequencing, dependencies, constraints, risk and real-world delivery.</p></div></div><div class="resume-row"><div class="resume-label">Foundation</div><div><h3>Civil Engineering</h3><p>My civil-engineering background underpins a systems approach to product problems involving geometry, physical constraints, materials and execution.</p></div></div><div class="resume-row"><div class="resume-label">Product skills</div><div><p>Product discovery · PRDs · roadmaps · requirements · acceptance criteria · prioritisation · user workflows · product operations · release planning · QA/UAT · metrics frameworks · stakeholder communication · technical coordination · AI-assisted product development.</p></div></div></div></div></section>
+</main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span class="js-year"></span> <span class="js-name">Ivy</span>. Product management portfolio.</div>
+      <div class="footer-links">
+        <a class="js-linkedin-link" hidden target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="js-github-link" hidden target="_blank" rel="noreferrer">GitHub</a>
+        <a class="js-email-link" hidden>Email</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

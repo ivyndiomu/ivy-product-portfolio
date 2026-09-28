@@ -9,6 +9,7 @@
     menuButton.addEventListener('click', () => {
       const open = nav.classList.toggle('is-open');
       menuButton.setAttribute('aria-expanded', String(open));
+      menuButton.textContent = open ? 'Close' : 'Menu';
     });
   }
 
@@ -34,12 +35,9 @@
   });
 
   const emptyContact = $('.js-contact-empty');
-  if (emptyContact) {
-    emptyContact.hidden = Boolean(config.email || config.linkedin);
-  }
+  if (emptyContact) emptyContact.hidden = Boolean(config.email || config.linkedin || config.github);
 
-  const year = $('.js-year');
-  if (year) year.textContent = new Date().getFullYear();
+  $$('.js-year').forEach(el => { el.textContent = new Date().getFullYear(); });
 
   const progress = $('.reading-progress');
   if (progress) {
