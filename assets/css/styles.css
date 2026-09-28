@@ -763,9 +763,7 @@ p { margin-bottom: 18px; }
   .project-feature { grid-template-columns: 1fr; }
   .project-copy, .about-portrait { position: static; }
 
-  .portrait-duo,
   .not-found-grid { grid-template-columns: 1fr; }
-  .work-portrait { margin-top: 22px; }
   .not-found-art { min-height: 0; }
   .experience-row { grid-template-columns: 70px 1.3fr 1fr; }
   .experience-row .date { display: none; }
