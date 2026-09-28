@@ -259,7 +259,7 @@ p { margin-bottom: 18px; }
   height: 100%;
   min-height: 680px;
   object-fit: cover;
-  object-position: 54% 42%;
+  object-position: 63% 44%;
 }
 .portrait-note {
   position: absolute;
